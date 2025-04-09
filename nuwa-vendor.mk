@@ -742,6 +742,7 @@ PRODUCT_PACKAGES += \
     libthreadutils \
     vendor.qti.hardware.qxr-V1-ndk \
     vendor.xiaomi.hardware.bgservice@1.0 \
+    vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.miface@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
     bm3a68v08s11n29 \
@@ -798,6 +799,7 @@ PRODUCT_PACKAGES += \
     bm3a73v08s11n63 \
     capi_cirrus_sp \
     chre_qsh_shim \
+    hrtf5c \
     libCalculator_skel \
     libDspIOProxy_skel \
     libQ6MSFR_manager_skel \
