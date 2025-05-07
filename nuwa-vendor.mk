@@ -6,6 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/nuwa
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/nuwa/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
+    vendor/xiaomi/nuwa/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc \
+    vendor/xiaomi/nuwa/proprietary/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/firmware/water_check.tflite \
+    vendor/xiaomi/nuwa/proprietary/odm/firmware/film_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/film_model.tflite \
+    vendor/xiaomi/nuwa/proprietary/odm/firmware/glove_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/glove_model.tflite \
     vendor/xiaomi/nuwa/proprietary/odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Forte/Forte_acdb_cal.acdb \
     vendor/xiaomi/nuwa/proprietary/odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp \
     vendor/xiaomi/nuwa/proprietary/odm/etc/audio/misound_res_spk_power_game.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk_power_game.bin \
@@ -650,7 +655,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_wide_bu24618_ois.coeff:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_wide_bu24618_ois.coeff \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_wide_bu24618_ois.mem:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_wide_bu24618_ois.mem \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_wide_bu24618_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_wide_bu24618_ois.prog \
-    vendor/xiaomi/nuwa/proprietary/odm/firmware/st_fts_l1.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_l1.ftb \
+    vendor/xiaomi/nuwa/proprietary/odm/firmware/st_fts_m2.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m2.ftb \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/camera/aon_front.pb:$(TARGET_COPY_OUT_ODM)/lib64/camera/aon_front.pb \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_tele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_tele.bin \
@@ -811,6 +816,10 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV68Skel \
     libSnpeHtpV69Skel \
     libSnpeHtpV73Skel \
+    vendor.xiaomi.hw.touchfeature@1.0-service \
+    vendor.xiaomi.hw.touchfeature@1.0_vendor \
+    vendor.xiaomi.hw.touchfeature@1.0-impl \
+    vendor.xiaomi.hw.touchfeature@1.0-service.xml \
     libVppAisQnnHtp \
     libVppFrcQnnHtp \
     libadsp_jpege_skel \
@@ -1004,6 +1013,11 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.rt \
     com.qti.feature2.rtmcx \
     com.qti.feature2.serializer \
+    libtensorflowlite_c \
+    toucheventcheck \
+    touch_raw \
+    touch_report \
+    touchsensor \
     com.qti.feature2.statsregeneration \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \

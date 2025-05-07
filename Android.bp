@@ -38,6 +38,68 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+cc_prebuilt_binary {
+    name: "vendor.xiaomi.hw.touchfeature@1.0-service",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service"],
+            shared_libs: ["liblog", "libjsoncpp", "libcutils", "libhidlbase", "libbinder", "libhardware", "libhidltransport", "libutils", "vendor.xiaomi.hw.touchfeature@1.0_vendor", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@2.0", "libmisight", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.xiaomi.hw.touchfeature@1.0_vendor",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so"],
+            shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "vendor.xiaomi.hw.touchfeature@1.0-service.xml",
+    owner: "xiaomi",
+    src: "proprietary/odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.xiaomi.hw.touchfeature@1.0-impl",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so"],
+            shared_libs: ["libhidlbase", "libhidltransport", "libutils", "liblog", "libcutils", "libhardware", "libjsoncpp", "libbase", "libbinder", "vendor.xiaomi.hw.touchfeature@1.0_vendor", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@2.0", "libmisight", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    device_specific: true,
+}
+
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.7-impl-vcamera",
     owner: "xiaomi",
@@ -2339,6 +2401,121 @@ prebuilt_rfsa {
     src: "proprietary/vendor/lib/rfsa/adsp/nearby.so",
     relative_install_path: "adsp",
     soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "touchsensor",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/bin/touchsensor"],
+            shared_libs: [
+                "libc",                
+                "libdl",               
+                "liblog",               
+                "libm",               
+                "libtensorflowlite_c",               
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "touch_report",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/bin/touch_report"],
+            shared_libs: [
+                "libc",               
+                "libdl",               
+                "liblog",                
+                "libm",               
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "touch_raw",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/bin/touch_raw"],
+            shared_libs: [
+                
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "toucheventcheck",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: ["proprietary/odm/bin/toucheventcheck"],
+            shared_libs: [
+                "libbinder",               
+                "libc",               
+                "libc++",               
+                "libcutils",                
+                "libdl",               
+                "libhardware",                
+                "liblog",               
+                "libm",               
+                "libutils",                
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtensorflowlite_c",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtensorflowlite_c.so",
+            ],
+            shared_libs: [
+                "libc",               
+                "libdl",               
+                "liblog",               
+                "libm",               
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
 }
 
 cc_prebuilt_library_shared {
