@@ -36,6 +36,8 @@ sat3PartFallbackW2UW=11:25:305:375
 fb3PartZoomRatio=1:10:120:120
 enableEarlyPipelineActivate=TRUE
 
+enableSatZoomingButton=TRUE
+
 # SAT zoom animation params
 isSwitchAnimationSupported=TRUE
 satZoomButton=0.6:1:2:3:5:10:70|0.6:1:2:3:5:10:15
@@ -413,6 +415,20 @@ overrideMinIFEHeight=320
 # Disable DMA Fence
 enableDMAFence=FALSE
 
+#AWB gamma ratio
+customColortemperatureGainRatio = 1.1250:0.8083|1.1178:0.8137|1.1350:0.7806|1.1749:0.7238|0.8633:1.2862|0.8189:1.4421|0.7849:1.4663|0.8044:1.4977
+customColortuneGainRatio = 1.1212:1.1997|1.1503:1.2415|1.1622:1.2363|1.1784:1.2370|0.8825:0.8658|0.8898:0.8535|0.8819:0.8389|0.9093:0.8199
+
+#support customimagequality
+isCustomQualitySupported=TRUE
+
+#customimagequality lut config mask
+#Bit[0] - no use lut
+#Bit[1] - tone use lut
+#Bit[2] - Saturation use lut
+#Bit[3] - tone and Saturation use lut
+XiaomiCIQLutConfigMask=0x2
+
 #enable Optimize EV Adjustment
 enableOptimizeEVAdjustment=FALSE
 
@@ -434,3 +450,6 @@ enCameraHWDiag=TRUE
 #for camera mipi crc error
 enableInternalKMDRecovery=TRUE
 crcErrorDivisor=100
+
+# Exif
+DisplayLeicaStyle=TRUE

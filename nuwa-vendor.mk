@@ -6,41 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/nuwa
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc \
-    vendor/xiaomi/nuwa/proprietary/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/firmware/water_check.tflite \
-    vendor/xiaomi/nuwa/proprietary/odm/firmware/film_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/film_model.tflite \
-    vendor/xiaomi/nuwa/proprietary/odm/firmware/glove_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/glove_model.tflite \
     vendor/xiaomi/nuwa/proprietary/odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Forte/Forte_acdb_cal.acdb \
     vendor/xiaomi/nuwa/proprietary/odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp \
     vendor/xiaomi/nuwa/proprietary/odm/etc/audio/misound_res_spk_power_game.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk_power_game.bin \
     vendor/xiaomi/nuwa/proprietary/odm/etc/audio/misound_res_spk_power_video.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk_power_video.bin \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_ODM)/etc/camera/102_SummerDay.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/103_Fantasy.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_ODM)/etc/camera/104_Meet.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/105_WindSing.png:$(TARGET_COPY_OUT_ODM)/etc/camera/105_WindSing.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/106_Lost.png:$(TARGET_COPY_OUT_ODM)/etc/camera/106_Lost.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/107_Central.png:$(TARGET_COPY_OUT_ODM)/etc/camera/107_Central.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_ODM)/etc/camera/108_NorthernEurope.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_ODM)/etc/camera/109_Rome.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_ODM)/etc/camera/110_BlackGold.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/111_GreenOrange.png:$(TARGET_COPY_OUT_ODM)/etc/camera/111_GreenOrange.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/112_CyberPunk.png:$(TARGET_COPY_OUT_ODM)/etc/camera/112_CyberPunk.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/113_BlackIce.png:$(TARGET_COPY_OUT_ODM)/etc/camera/113_BlackIce.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/121_Bleach.png:$(TARGET_COPY_OUT_ODM)/etc/camera/121_Bleach.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/122_Thriller.png:$(TARGET_COPY_OUT_ODM)/etc/camera/122_Thriller.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/123_TealOrange.png:$(TARGET_COPY_OUT_ODM)/etc/camera/123_TealOrange.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/124_JapaneseStyle.png:$(TARGET_COPY_OUT_ODM)/etc/camera/124_JapaneseStyle.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/125_Latin.png:$(TARGET_COPY_OUT_ODM)/etc/camera/125_Latin.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/126_Fantasy2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/126_Fantasy2.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/127_Creamy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/127_Creamy.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/128_Sepia.png:$(TARGET_COPY_OUT_ODM)/etc/camera/128_Sepia.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/129_Vivid.png:$(TARGET_COPY_OUT_ODM)/etc/camera/129_Vivid.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/130_Natural.png:$(TARGET_COPY_OUT_ODM)/etc/camera/130_Natural.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/131_Monochrome.png:$(TARGET_COPY_OUT_ODM)/etc/camera/131_Monochrome.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/132_MonochromeHighContrast.png:$(TARGET_COPY_OUT_ODM)/etc/camera/132_MonochromeHighContrast.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/133_MonochromeBrown.png:$(TARGET_COPY_OUT_ODM)/etc/camera/133_MonochromeBrown.png \
-    vendor/xiaomi/nuwa/proprietary/odm/etc/camera/134_MonochromeBlue.png:$(TARGET_COPY_OUT_ODM)/etc/camera/134_MonochromeBlue.png \
     vendor/xiaomi/nuwa/proprietary/odm/etc/camera/CFR_para_UW_V01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01.bin \
     vendor/xiaomi/nuwa/proprietary/odm/etc/camera/CFR_para_UW_V01_HD.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01_HD.bin \
     vendor/xiaomi/nuwa/proprietary/odm/etc/camera/CFR_para_UW_V01_HDR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01_HDR.bin \
@@ -528,7 +497,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_2.txt \
     vendor/xiaomi/nuwa/proprietary/odm/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_m2_38_0c_0a_dsc_cmd/mi_gc_3.txt \
     vendor/xiaomi/nuwa/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json \
+    vendor/xiaomi/nuwa/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
     vendor/xiaomi/nuwa/proprietary/odm/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.camera.provider-service_64.rc \
+    vendor/xiaomi/nuwa/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc \
     vendor/xiaomi/nuwa/proprietary/odm/etc/mdss_dsi_m2_38_0c_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_m2_38_0c_0a_dsc_cmd_mi.xml \
     vendor/xiaomi/nuwa/proprietary/odm/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/ak991x_dri_0.json \
     vendor/xiaomi/nuwa/proprietary/odm/etc/sensors/config/kailua_qsh_ble_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/kailua_qsh_ble_0.json \
@@ -649,6 +620,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/T-music.txt:$(TARGET_COPY_OUT_ODM)/firmware/T-music.txt \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_ODM)/firmware/cs35l41-dsp1-spk-cali.wmfw \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_ODM)/firmware/cs35l41-dsp1-spk-prot.wmfw \
+    vendor/xiaomi/nuwa/proprietary/odm/firmware/film_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/film_model.tflite \
+    vendor/xiaomi/nuwa/proprietary/odm/firmware/glove_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/glove_model.tflite \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_tele_bu24618_ois.coeff:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_tele_bu24618_ois.coeff \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_tele_bu24618_ois.mem:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_tele_bu24618_ois.mem \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_tele_bu24618_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_tele_bu24618_ois.prog \
@@ -657,6 +630,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/nuwa_wide_bu24618_ois.prog:$(TARGET_COPY_OUT_ODM)/firmware/nuwa_wide_bu24618_ois.prog \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/st_fts_m2.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m2.ftb \
     vendor/xiaomi/nuwa/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
+    vendor/xiaomi/nuwa/proprietary/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/firmware/water_check.tflite \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/camera/aon_front.pb:$(TARGET_COPY_OUT_ODM)/lib64/camera/aon_front.pb \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_tele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_tele.bin \
     vendor/xiaomi/nuwa/proprietary/odm/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_ultra.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.nuwa_ofilm_s5kjn1_ultra.bin \
@@ -750,6 +724,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.miface@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
+    vendor.xiaomi.hw.touchfeature@1.0_vendor \
     bm3a68v08s11n29 \
     bm3a68v08s11n30 \
     bm3a68v08s11n35 \
@@ -816,10 +791,6 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV68Skel \
     libSnpeHtpV69Skel \
     libSnpeHtpV73Skel \
-    vendor.xiaomi.hw.touchfeature@1.0-service \
-    vendor.xiaomi.hw.touchfeature@1.0_vendor \
-    vendor.xiaomi.hw.touchfeature@1.0-impl \
-    vendor.xiaomi.hw.touchfeature@1.0-service.xml \
     libVppAisQnnHtp \
     libVppFrcQnnHtp \
     libadsp_jpege_skel \
@@ -1013,11 +984,6 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.rt \
     com.qti.feature2.rtmcx \
     com.qti.feature2.serializer \
-    libtensorflowlite_c \
-    toucheventcheck \
-    touch_raw \
-    touch_report \
-    touchsensor \
     com.qti.feature2.statsregeneration \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
@@ -1039,9 +1005,11 @@ PRODUCT_PACKAGES += \
     com.qti.chi.offline \
     com.qti.chi.override \
     fingerprint.goodix_fod.default \
+    vendor.xiaomi.hw.touchfeature@1.0-impl \
     libAF \
     libHISCppAlgos \
     libMiMotion \
+    libMiVideoFilter \
     libTrueSight \
     libXMFaceFocus \
     libaidenoiser \
@@ -1177,12 +1145,12 @@ PRODUCT_PACKAGES += \
     libsfeShiftExtrapolation \
     libsupermoon \
     libswregistrationalgo \
+    libtensorflowlite_c \
     libtfestriping \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libubifocus \
     libvideoBokeh \
-    libvideofilter_only \
     libvideoml \
     libvideomode \
     libvidhance \
@@ -1207,6 +1175,12 @@ PRODUCT_PACKAGES += \
     libmialgo_night_align_cdsp_skel \
     vendor.xiaomi.hardware.quickcamera@1.0-service.xml \
     vendor.xiaomi.hardware.vcamera.provider.xml \
+    vendor.xiaomi.hw.touchfeature@1.0-service.xml \
     android.hardware.camera.provider@2.7-virtual-camera-service \
     vendor.xiaomi.hardware.quickcamera@1.0-service \
-    vendor.qti.camera.provider-service_64
+    vendor.qti.camera.provider-service_64 \
+    vendor.xiaomi.hw.touchfeature@1.0-service \
+    touch_raw \
+    touch_report \
+    toucheventcheck \
+    touchsensor
