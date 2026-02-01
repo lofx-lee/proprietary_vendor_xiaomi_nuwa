@@ -747,7 +747,8 @@
         },
         {
             "ApkFunctionType":"DisablePrivatePort",
-            "ApkTable" :["com.instagram.android"]
+            "ApkTable" :["com.instagram.android",
+                        "com.google.jetpackcamera"]
         },
         {
             "ApkFunctionType":"SetVideoStillToPreview",
