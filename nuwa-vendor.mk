@@ -1195,6 +1195,10 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libmialgo_ell_cdsp_skel_so \
     odm_lib_rfsa_adsp_libmialgo_night_align_cdsp_skel_so \
     EuiccGoogle \
+    vendor.qti.camera.aon-impl-1.3.xml \
+    vendor.qti.camera.postproc-impl.xml \
+    vendor.qti.camera.provider.xml \
+    android.hardware.camera.provider.external.xml \
     vendor.xiaomi.hardware.quickcamera@1.0-service.xml \
     vendor.xiaomi.hardware.vcamera.provider.xml \
     android.hardware.camera.provider@2.7-virtual-camera-service \
