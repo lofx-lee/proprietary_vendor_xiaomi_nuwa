@@ -1204,4 +1204,17 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.vcamera.provider.xml \
     android.hardware.camera.provider@2.7-virtual-camera-service \
     vendor.xiaomi.hardware.quickcamera@1.0-service \
-    vendor.qti.camera.provider-service_64
+    vendor.qti.camera.provider-service_64 \
+    libcamera2ndk_vendor \
+    libhalide_hexagon_host \
+    libmidebuggerdimpl_vendor \
+    libmilut \
+    libtracker_6dof_impl \
+    camera.device@1.0-impl \
+    camera.device@3.2-impl \
+    camera.device@3.3-impl \
+    camera.device@3.4-external-impl \
+    camera.device@3.4-impl \
+    camera.device@3.5-external-impl \
+    camera.device@3.5-impl \
+    camera.device@3.6-external-impl
