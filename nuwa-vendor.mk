@@ -801,7 +801,7 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_bm3a73v08s11n63_bin \
     vendor_lib_rfsa_adsp_capi_cirrus_sp_so \
     vendor_lib_rfsa_adsp_chre_qsh_shim_so \
-    vendor_lib_rfsa_adsp_hrtf5c_bin \    
+    vendor_lib_rfsa_adsp_hrtf5c_bin \
     vendor_lib_rfsa_adsp_libCalculator_skel_so \
     vendor_lib_rfsa_adsp_libDspIOProxy_skel_so \
     vendor_lib_rfsa_adsp_libQ6MSFR_manager_skel_so \
